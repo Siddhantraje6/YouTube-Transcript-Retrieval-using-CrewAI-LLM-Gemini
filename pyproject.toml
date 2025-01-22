@@ -1,0 +1,30 @@
+[project]
+name = "youtube_transcript_retrieval"
+version = "0.1.0"
+description = "youtube_transcript_retrieval using crewAI"
+authors = [{ name = "Siddhantraje Suryawanshi", email = "siddhant.raje.5g@gmail.com" }]
+
+
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.95.0,<1.0.0",
+    "youtube_transcript_api>=0.6.3",
+    "pydantic>=2.10.5",
+    "typing>=3.7.4.3",
+    "requests>=2.32.3",
+]
+
+
+[project.scripts]
+youtube_trascript_retrieval = "youtube_trascript_retrieval.main:run"
+run_crew = "youtube_trascript_retrieval.main:run"
+train = "youtube_trascript_retrieval.main:train"
+replay = "youtube_trascript_retrieval.main:replay"
+test = "youtube_trascript_retrieval.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
