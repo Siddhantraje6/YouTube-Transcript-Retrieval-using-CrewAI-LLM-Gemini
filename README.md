@@ -56,7 +56,7 @@ To run this project, you will need to add the following environment variables to
 
 ## API Reference
 By default all of the CrewAI agents and tools use OPENAI as their LLM provider (paid only) but this can be changed by specificaly 
-mentioning model name and its api
+mentioning model name and its api.
 We can generate our api keys from Google cloud console, Google has its own free tier.
 
 | Parameter | Type     | Description                |
