@@ -56,7 +56,7 @@ To run this project, you will need to add the following environment variables to
 
 ## API Reference
 By default all of the CrewAI agents and tools use OPENAI as their LLM provider (paid only) but this can be changed by specificaly 
-mentioning model name and its api.
+mentioning Gemini as our LLM provider.
 We can generate our api keys from Google cloud console, Google has its own free tier.
 
 | Parameter | Type     | Description                |
@@ -72,7 +72,7 @@ We can generate our api keys from Google cloud console, Google has its own free 
 
 ## Appendix
 
-It is important to know that to run the project successfuly, one needs to configure the environment appropriately without any errors (even I struggled a lot with setting up right environment), sometimes installation and execution may take very long time.
+It is important to know that to run the project successfully, one needs to configure the environment appropriately without any errors (even I struggled a lot with setting up right environment), sometimes installation and execution may take very long time.
 
 Based upon the query (input), the tool finds the most relevant 20 videos (you can change this param), not all might have transcripts enabled, in that case
 the transcript field shall be left empty.
