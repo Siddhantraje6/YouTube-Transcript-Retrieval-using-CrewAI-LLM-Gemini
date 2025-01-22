@@ -1,0 +1,6 @@
+research_task:
+  description: >
+    - For given topic: {topic}; find 20 most relevant YouTube videos on that topic
+    - Most importantly dont fake or simulate anything
+  expected_output: >
+    The output of the agent must be equivalent to the output of the tool being used
